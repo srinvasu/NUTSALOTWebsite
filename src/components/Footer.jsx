@@ -65,9 +65,9 @@ function Footer() {
 
             <div className="col-lg-3 col-md-6">
               <h4>Contact Info</h4>
-              <p><FaEnvelope /> info@nutsalot.com</p>
-              <p><FaPhoneAlt /> +91 98765 43210</p>
-              <p><FaMapMarkerAlt /> Hyderabad, India</p>
+              <p><FaEnvelope /> nutsalot.tech@gmail.com</p>
+              <p><FaPhoneAlt /> +91 9866931750</p>
+              <p><FaMapMarkerAlt /> Vijayawada, India</p>
             </div>
 
             <div className="col-lg-2 col-md-6">
@@ -82,7 +82,7 @@ function Footer() {
           </div>
 
           <div className="footer-bottom">
-            <p>© 2025 NutsALot Technologies. All rights reserved.</p>
+            <p>© 2026 NutsALot Technologies. All rights reserved.</p>
           </div>
         </div>
       </footer>

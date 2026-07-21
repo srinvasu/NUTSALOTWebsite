@@ -1,10 +1,9 @@
-import { FaCloud, FaCode, FaRocket, FaUsers } from "react-icons/fa";
+import { FaCode, FaRocket, FaUsers } from "react-icons/fa";
 import logo from "../assets/logo.png";
 
 const stats = [
   { icon: <FaUsers />, value: "5+", label: "Years Experience" },
   { icon: <FaRocket />, value: "100+", label: "Projects Delivered" },
-  { icon: <FaCloud />, value: "50+", label: "Happy Clients" },
   { icon: <FaCode />, value: "10+", label: "Tech Experts" },
 ];
 
@@ -53,7 +52,7 @@ function Hero() {
           <div className="stats-box">
             <div className="row g-0">
               {stats.map((item) => (
-                <div className="col-lg-3 col-sm-6" key={item.label}>
+                <div className="col-lg-4 col-sm-6" key={item.label}>
                   <div className="stat-item">
                     <span className="stat-icon">{item.icon}</span>
                     <div>
